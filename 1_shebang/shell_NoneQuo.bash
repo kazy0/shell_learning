@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/bash
 
 arr=(a b c)
 echo ${arr[1]}

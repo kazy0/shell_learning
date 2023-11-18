@@ -1,4 +1,4 @@
-#!bin/sh
+#!/usr/bin/sh
 
 source ./config.fnc
 #sourceはbashの機能であり、shではエラーとなる。

@@ -1,4 +1,4 @@
-#!bin/sh
+#!/usr/bin/sh
 . ./config.fnc
 
 echo ${TEST}
