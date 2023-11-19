@@ -2,7 +2,10 @@
 
 #dirname：
 #与えられたパスから、ファイル名を除いたパスだけを返す。
+
 #ただし、同じ階層にあるファイルを指定した場合は.を返す。
+#例)dirname.shとconfig.fncは同じ階層にあるため、"dirname config.fnc"は"."を返す。
+
 
 echo "$(dirname config.fnc)" #出力：.
 echo "$(dirname ./dir/test.txt)" #出力：./dir
